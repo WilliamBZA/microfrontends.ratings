@@ -21,10 +21,17 @@ namespace imdbrating
 
         public async Task<string> GetImdbRating(string movieId)
         {
-            var imdb = new Imdb("8c75101");
-            var movie = await imdb.GetMovieAsync(movieId);
+            try
+            {
+                var imdb = new Imdb("8c75101");
+                var movie = await imdb.GetMovieAsync(movieId);
 
-            return movie.ImdbRating;
+                return movie.ImdbRating;
+            }
+            catch (Exception)
+            {
+                throw;
+            }
         }
 
         public async Task PopulateData(dynamic viewModel, RouteData routeData, HttpRequest request)
