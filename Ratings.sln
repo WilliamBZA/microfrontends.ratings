@@ -3,11 +3,16 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27130.2027
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ratings", "Ratings\Ratings.csproj", "{FDC3097D-54FC-4C22-A2A5-5E072229103F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ratings", "Ratings\Ratings.csproj", "{FDC3097D-54FC-4C22-A2A5-5E072229103F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "userratings", "userratings\userratings.csproj", "{A621F69E-53B8-442D-9496-10BFD0050A1F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "userratings", "userratings\userratings.csproj", "{A621F69E-53B8-442D-9496-10BFD0050A1F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "imdbrating", "imdbrating\imdbrating.csproj", "{9612400C-62C6-49BF-B621-4C6DC59CC714}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "imdbrating", "imdbrating\imdbrating.csproj", "{9612400C-62C6-49BF-B621-4C6DC59CC714}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{4CDDD3B1-C320-47FB-813D-C0767FCAA635}"
+	ProjectSection(SolutionItems) = preProject
+		package.json = package.json
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

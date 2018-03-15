@@ -1,24 +1,24 @@
 {
-  "name": "microfrontends.trailers",
+  "name": "microfrontends.ratings",
   "version": "1.0.0",
   "files": [
-    "TrailerWeb/ClientApp/TrailerView.d.ts",
-    "TrailerWeb/ClientApp/TrailerView.tsx"
+    "Ratings/ClientApp/ratings.d.ts",
+    "Ratings/ClientApp/ratings.tsx"
   ],
-  "typings": "TrailerWeb/ClientApp/TrailerView.d.ts",
-  "main": "TrailerWeb/ClientApp/TrailerView.tsx",
+  "typings": "Ratings/ClientApp/ratings.d.ts",
+  "main": "Ratings/ClientApp/ratings.tsx",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/WilliamBZA/Microfrontends.trailers.git"
+    "url": "git+https://github.com/WilliamBZA/microfrontends.ratings.git"
   },
   "author": "WilliamBZA",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/WilliamBZA/Microfrontends.trailers/issues"
+    "url": "https://github.com/WilliamBZA/microfrontends.ratings/issues"
   },
-  "homepage": "https://github.com/WilliamBZA/Microfrontends.trailers#readme",
+  "homepage": "https://github.com/WilliamBZA/microfrontends.ratings#readme",
   "description": ""
 }
