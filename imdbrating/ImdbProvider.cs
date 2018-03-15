@@ -9,6 +9,8 @@ namespace imdbrating
 {
     public class ImdbProvider : IProvideData
     {
+        static Random random = new Random();
+
         public bool Matches(RouteData routeData, HttpRequest request)
         {
             var controller = ((string)routeData.Values["controller"]).ToLowerInvariant();
@@ -27,7 +29,13 @@ namespace imdbrating
 
         public async Task PopulateData(dynamic viewModel, RouteData routeData, HttpRequest request)
         {
+            if (random.Next(5) == 1)
+            {
+                throw new Exception("Boooom!");
+            }
+
             viewModel.imdbRating = await GetImdbRating(request.Query["moviedetails"]);
+            viewModel.userRating = "1 / 10";
         }
     }
 }
